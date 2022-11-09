@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>
-            <img src="resources/website logo.jpeg" alt="website logo" height="75">
-        </h1>
-    </div>
+
     
+   
     <div>
-        <nav>
-            <li><a href="HOME.asp" target="_blank">Home</a></li>
+        <nav class="navbar">
+            <img src="resources/website logo.jpeg" alt="website logo" height="75">
+            
+            <ul class="links">
+            <li><a href="#aboutyt" target="_blank">Home</a></li>
             <li><a href="about.asp" target="_blank">About</a></li>
             <li><a href="work.asp" target="_blank">Work</a></li>
             <li><a href="resume.asp" target="_blank">Resume</a></li>
             <li><a href="contact.asp" target="_blank">Contact</a></li>
+            </ul>
         </nav>
     </div>
+    
     <div>
         <audio controls> <source src="resources/sound.mp3" type="audio/mpeg"> please check audio extension!</audio>
     </div>
@@ -46,7 +49,7 @@
         </SEction>
     </DIV>
     <div>
-        <iframe width="600" height="400" src="https://www.youtube.com/watch?v=vYCR8371dlw" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vYCR8371dlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <hr>    
     <hr>    
@@ -82,7 +85,7 @@
         <div>
             <img src="resources/yt.jpg" alt="youtube logo">
         </div>
-        <div>
+        <div id="aboutyt">
             <p>
                 YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. It is owned by Google, and is the second most visited website, after Google Search.
             </p>
